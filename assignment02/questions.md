@@ -17,16 +17,16 @@
 4b.  ASPR.N and ASPR.V are both zero, as they were in question 2 when the counter incremented from 0xffffffff to 0.  Again, it seems that the ASPR registers assume that the values are signed, and the unsigned aspect is handled elsewhere  
 &nbsp;
 
-5a.  scope of counter is now global
-5b.  no, counter is not in the Locals window
-5c.  counter can be tracked in the Watch window
-5d.  counter is at memory address 0x20000000
+5a.  scope of counter is now global  
+5b.  no, counter is not in the Locals window  
+5c.  counter can be tracked in the Watch window  
+5d.  counter is at memory address 0x20000000  
 &nbsp;
 
-6a.  counter = 4
-6b.  The counter variable is stored at memory address 0x20000000.  p_int is a pointer that is set to point to that same memory address, 0x20000000.  Incrementing the value pointed to by p_int is the same as incremenenting counter, because they both reference the same memory location
+6a.  counter = 4  
+6b.  The counter variable is stored at memory address 0x20000000.  p_int is a pointer that is set to point to that same memory address, 0x20000000.  Incrementing the value pointed to by p_int is the same as incremenenting counter, because they both reference the same memory location  
 &nbsp;
 
-7a.  counter is still at address 0x20000000
-7b.  memory address 0x20000000 is start of the SRAM address space, so it is stored in RAM
-7c.  counter = 4
+7a.  counter is still at address 0x20000000  
+7b.  memory address 0x20000000 is start of the SRAM address space, so it is stored in RAM  
+7c.  counter = 4  
