@@ -7,8 +7,7 @@ The main() function sets up the integer values and the pointers on the stack, an
 
 R0 is the address of pX (on the stack), and R1 is the address of pY (on the stack)
 
-# 1c. Share a screen shot of the local variables inside of “main” after the function
-swap_pointer() returns
+# 1c. Share a screen shot of the local variables inside of “main” after the function swap_pointer() returns
 
-!(swap_pointers.jpg)
+![swap_pointers screen shot](swap_pointers.jpg)
 
