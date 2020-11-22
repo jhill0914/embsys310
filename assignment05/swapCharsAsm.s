@@ -72,11 +72,11 @@ Return value    : None
   
 swapPointersAsm:
 
-    LDR R2, [R0]       // load value at address stored in c1 into R2
-    LDR R3, [R1]       // load value at address stored in c2 into R3
-    STR R2, [R1]       // store contents of R2 (*c1) into address stored in c2
-    STR R3, [R0]       // store contents of R3 (*c2) into address stored in c1
+    LDR R2, [R0]       // load value at address stored in p1 into R2
+    LDR R3, [R1]       // load value at address stored in p2 into R3
+    STR R2, [R1]       // store contents of R2 (*p1) into address stored in p2
+    STR R3, [R0]       // store contents of R3 (*p2) into address stored in p1
     
-    BX LR               // return (with function result in R0)
+    BX LR               // return
 
     END
